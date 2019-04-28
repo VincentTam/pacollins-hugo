@@ -70,7 +70,7 @@ point, but I am speculating that I will move over to [Google Domains](http://dom
 since it will be $12/year with Google integration. That being said, the next step
 was to set-up my email address.
 
-
+{{< fancybox "date" "1and1webmail.jpg" "Webmail Interface from 1&1" "post" >}}
 
 I just want to say that I was pleasantly surprised with 1&1's Webmail. The interface
 is sleek and intuitive - two things that are very important to me in a service,
@@ -97,7 +97,7 @@ to see new content *and* new features thought a fully functioning localhost site
 going to be cumbersome to edit the site, I wouldn't do it and I would end up wasting
 a lot of my time establishing the site to just leave it unmaintained.
 
-
+{{< fancybox "date" "hugo.jpg" "Hugo Logo" "post" >}}
 
 Since I knew I didn't want advertisements or to pay for hosting, that knocked out
 the majority of services people typically use. It left mostly the blogging platforms

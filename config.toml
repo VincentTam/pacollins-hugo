@@ -95,11 +95,12 @@ disableLanguages        = ["fr","pl"]
     username            = "pacollins"
     repo                = "pacollins-hugo"
     branch              = "master"
+    notifications       = false
 
     [params.staticman.recaptcha]
-      recaptcha         = true
-      siteKey           = "6LdgfJwUAAAAADYqFjQaGL9MJrT_lYfgm9YFw4Dr" # Site Key
-      encryptedKey      = "KeTvj4paUYzes9bFZKwYp6ORTuXl7YsctR9QIWQ/6GZTTRGKnkqJfwtAN6Q8M2sIq8hRbAf56DMRtIBTpNymQy1yRuxCY5kfUVcqM+rorE3Ngp+V8hCzc5+YrkyQgnjvQ8VtNQuFM5xAv7VTMC+5c9bDUvyPgR0wbQv/opVKhlQ="
+      recaptcha         = false
+      siteKey           = "6LedB6MUAAAAACwtxiedcvEZlctWHgQBMcLCMcfJ" # Site Key
+      encryptedKey      = "tjCLE9u8dvgelHn1//gh8M6vnetliRbTr5O47FjAzKUcEwdSShSE8zQ9jJb0kuE6anGSauB4Twmy7dDw3/Vx0C23pFiAOuXJoF093asQIiDwAIN1iYn1nNaPpsgYQYuE/DjIbUeimAfs+gaPkFWh6qtk4qxefIcfFKTM6n/4Rhs="
 
 [menu]
   # Sets the menu items in the navigation bar

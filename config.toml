@@ -90,8 +90,13 @@ disableLanguages        = ["fr","pl"]
   # prefer to use. See Staticman.yml for additional settings.
   [params.staticman]
     # Sets Statiman to be active
+    # If using GitHub, go to https://github.com/apps/staticman-net
+    # If using GitLab, just add the GitLab bot, NO need to hit `/connect/v3/...`
+    # Sets Statiman to be active
     staticman           = true
     # Sets the location for Staticman to connect to
+    api                 = "dev.staticman.net"  # without trailing slash
+    gitProvider         = "github"  # either "github" or "gitlab"
     username            = "pacollins"
     repo                = "pacollins-hugo"
     branch              = "master"
@@ -99,8 +104,8 @@ disableLanguages        = ["fr","pl"]
 
     [params.staticman.recaptcha]
       recaptcha         = false
-      siteKey           = "6LedB6MUAAAAACwtxiedcvEZlctWHgQBMcLCMcfJ" # Site Key
-      encryptedKey      = "tjCLE9u8dvgelHn1//gh8M6vnetliRbTr5O47FjAzKUcEwdSShSE8zQ9jJb0kuE6anGSauB4Twmy7dDw3/Vx0C23pFiAOuXJoF093asQIiDwAIN1iYn1nNaPpsgYQYuE/DjIbUeimAfs+gaPkFWh6qtk4qxefIcfFKTM6n/4Rhs="
+      siteKey           = "6LeLLqwUAAAAAGktSeK9Xe8xryloOA3szJ_19CJV" # Site Key
+      encryptedKey      = "i9tusVTxoFsowed95/TG99y4uopfB0fnG6M4B4m1PGu8nojsH3B9152b3MmSa+5DKXm+DA7XHFaQb2X5x8pLRs0ooyqMYmFGbj18C0SjIwfGqg2hQFZz+LZjf4wTp/I3CnnjKvlXTQd4AnWSoctlS/cIX0lDPCAP7fDIAry+mYM="
 
 [menu]
   # Sets the menu items in the navigation bar

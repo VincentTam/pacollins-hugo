@@ -95,7 +95,7 @@ disableLanguages        = ["fr","pl"]
     # Sets Statiman to be active
     staticman           = true
     # Sets the location for Staticman to connect to
-    api                 = "dev.staticman.net"  # without trailing slash
+    api                 = "api.staticman.net"  # without trailing slash
     gitProvider         = "github"  # either "github" or "gitlab"
     username            = "pacollins"
     repo                = "pacollins-hugo"
